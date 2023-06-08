@@ -11,4 +11,9 @@ gem 'rake'
 gem 'puma'
 gem 'dotenv'
 gem 'sinatra-contrib'
-gem 'byebug', '~> 11.1', :groups => [:development, :test]
+
+group :test do
+  gem 'byebug', '~> 11.1'
+  gem 'rspec'
+  gem 'rack-test'
+end
