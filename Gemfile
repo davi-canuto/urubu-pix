@@ -8,6 +8,7 @@ gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'sqlite3'
 gem 'rake'
+gem 'puma'
 gem 'dotenv'
 gem 'sinatra-contrib'
 gem 'byebug', '~> 11.1', :groups => [:development, :test]
