@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'sinatra/contrib'
 require 'sinatra'
 require 'dotenv'

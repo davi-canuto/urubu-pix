@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './app/model/order'
 require './app/adapters/repositories/order_repository'
 
