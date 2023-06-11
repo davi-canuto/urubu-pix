@@ -4,8 +4,7 @@ require './app/model/user'
 
 RSpec.describe Users::Create do
   context 'with new user' do
-    let(:params) { { name: 'John' } }
-    let(:create_user) { Users::Create.new(params: params) }
+    let(:create_user) { described_class.new(params: { name: 'John' }) }
 
     it { expect(create_user.call.class).to be(UserRepository) }
   end
